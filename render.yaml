@@ -1,0 +1,5 @@
+services:
+  - name: my-web-service
+    type: web
+    start_command: python entertainment.py
+    port: 8080
